@@ -20,7 +20,7 @@ public class MylibraryMain {
 	public static void main(String[] args) {
 		addAllBooksAndCustomers();
 		do {
-			System.out.println("----------LIBRARY MANAGEMENT-----------");
+			System.out.println("----------LIBRARY MANAGEMENT J8-----------");
 			System.out.println("0. Stop app");
 			System.out.println("1. Display all books");
 			System.out.println("2. Display all customers");
