@@ -157,6 +157,9 @@ public class MylibraryMain {
 
 
 	private static void displayAllCustomers() {
+		if(customers.isEmpty()) {
+			System.out.println("No Customers to display");
+		}
 		customers.stream()
 					.forEach(System.out::println);
 	}
