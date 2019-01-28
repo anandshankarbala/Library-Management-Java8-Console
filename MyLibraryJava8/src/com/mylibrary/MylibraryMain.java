@@ -96,7 +96,7 @@ public class MylibraryMain {
 											.filter(c -> c.getCutomerId().equals(bi.getCustomerId()))
 											.findFirst()
 											.orElse(null);
-			System.out.println("Book "+book.getTitle()+" is issued to "+customer.getName());
+			System.out.println("Book "+book.getTitle()+" is issued to customer - "+customer.getName());
 		});
 	}
 
